@@ -1,5 +1,8 @@
 ## Neuron Classifier CNN
 
+*LINK TO GOOGLE COLAB NOTEBOOK WITH MODEL*
+https://colab.research.google.com/drive/1llOyxxIETn_X2WLkvHSKWx_414LdWVm1
+
 ### Background-
     This is, as the title says, a convolutional neural network that attempts to classify
     different types of pyramidal neurons. I chose to create this because I am a neuroscience 

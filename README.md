@@ -4,15 +4,15 @@
 https://colab.research.google.com/drive/1llOyxxIETn_X2WLkvHSKWx_414LdWVm1
 
 ### Background-
-    This is, as the title says, a convolutional neural network that attempts to classify
-    different types of pyramidal neurons. I chose to create this because I am a neuroscience 
-    and behavior major and I hope to use machine learning to aid neuroscience research in
-    graduate school and beyond. A neural network such as this one (when fully optimized)
-    could help distinguish types of neurons between different species.
+    A convolutional neural network that attempts to classify different types of pyramidal 
+    neurons. I chose to create this because I am a neuroscience and behavior major and hope 
+    to use machine learning to aid neuroscience research in graduate school and beyond. A 
+    neural network such as this one (when fully optimized) could help distinguish types of 
+    neurons between different species.
     The Neuron Classifier CNN follows an architecture using the tensorflow layers module
     similar to the kind used to evaluate the popular MNIST dataset. Methods can be broken 
     down into 3 main categories for easier understanding: data preprocessing, the model
-    itself, and training/output. Each of these are detailed below.
+    itself, and training/output.
 
 ### Data Preprocessing-
     Each neuron image was originally obtained from Neuromorpho.org. They are of three
@@ -75,15 +75,13 @@ https://colab.research.google.com/drive/1llOyxxIETn_X2WLkvHSKWx_414LdWVm1
     with and this repository will be updated accordingly if a more accurate structure is found
     in the future. It would also be interesting to see how well the model extrapolates to images
     of neurons directly from stained slides, given that the NeuroMorpho images are digital
-    reconstructions of actual neurons. I hypothesize that there shouldn't be too much of a difference
-    since the images shouldn't be particularly different once they're converted to grayscale
-    numpy array values. The network would also likely benefit from more training examples per class,
-    which is an avenue that will be explored in the future.
+    reconstructions of actual neurons. The network would also likely benefit from more training 
+    examples per class, which is an avenue that will be explored in the future.
     
 ### How to Run the Code
-    The network is all located in one file for ease of use for the layman. Run each cell from top to
+    The network is all located in one file for ease of use. Run each cell from top to
     bottom. To input the datasets, choose your train/test sets when prompted after running the second
-    cell. The csv files used while creating this network are also available for your use. The third cell
+    cell. The csv files used while creating this network are also available in the repository. The third cell
     is provided to verify a successful upload, and will print the names of the files and their length
     in bytes. In the fourth cell, change the names of the files 'simpletraindata.csv' and 'simplevaldata.csv'
     if you are uploading your own files. Otherwise there is no need to change them as long as you
